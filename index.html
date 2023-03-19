@@ -338,5 +338,18 @@
         });
       }
     </script>
+    <script>
+      // Get all navigation links
+const navLinks = document.querySelectorAll('nav ul li a');
+
+// Add event listener to each navigation link
+navLinks.forEach(link => {
+  link.addEventListener('click', () => {
+    // Toggle checked state of the check box
+    document.getElementById('check').checked = false;
+  });
+});
+
+    </script>
   </body>
 </html>
