@@ -122,7 +122,7 @@ nav ul li a:hover {
 .carousal h1,
 .carousal h2 {
   color: #fff;
-/*   padding: 10px; */
+  /* padding: 10px; */
   font-family: "Bebas Neue", cursive;
 }
 .carousal h1 {
@@ -132,8 +132,7 @@ nav ul li a:hover {
   font-size: 50px;
 }
 .carousal button {
-  margin: 10px;
-  padding: 15px;
+  padding: 12px;
   cursor: pointer;
   border-radius: 3px;
   border-width: 0;
@@ -150,7 +149,7 @@ nav ul li a:hover {
 /* Media query for screens with a width of 400px or less */
 @media (max-width: 858px) {
   .carousal {
-	height: 80vh;
+    height: 80vh;
     padding: 200px 0;
   }
   .carousal h1 {
@@ -193,6 +192,7 @@ nav ul li a:hover {
 
 .abouttext {
   flex: 1;
+  text-align: justify;
 }
 
 
@@ -225,8 +225,11 @@ nav ul li a:hover {
   flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
-  margin: 20px;
+  margin: 20px ;
   /* animation: myAnim 1s ease 0s 1 normal forwards; */
+}
+.internsection p{
+  text-align: justify;
 }
 .internimage {
   flex: 1;
@@ -245,8 +248,12 @@ nav ul li a:hover {
   padding: 10px;
 }
 
+.button{
+ margin: 10px;
+}
+
 .internimage button {
-  margin: 10px;
+  /* margin: 10px; */
   padding: 10px;
   cursor: pointer;
   border-radius: 3px;
@@ -534,6 +541,9 @@ footer{
   .contactheading h1{
     font-size: 25px;
   }
+  .internshipheading h1{
+    font-size: 25px;
+  }
 }
 
 /* @keyframes myAnim {
@@ -548,4 +558,90 @@ footer{
 	}
 } */
 
+/* Details Pages */
 
+.internshipheading h1 {
+  text-align: center;
+  padding: 60px;
+  text-shadow: 0px 0px 10px #19a7ce;
+  /* animation: myAnim 1s ease 0s 1 normal forwards; */
+}
+
+.internshipsection {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 20px 20px 20px;
+  padding: 0 20px 0 20px;
+  /* animation: myAnim 1s ease 0s 1 normal forwards; */
+}
+.internshipimage {
+  flex: 1;
+  margin-right: 20px;
+  
+}
+.internshipimage img {
+  width: 100%;
+}
+
+.internshiptext {
+  flex: 1;
+  text-align: justify;
+}
+
+@media (max-width: 768px) {
+  .internshipsection {
+    flex-direction: column;
+  }
+  .internshipimage {
+    margin: 20px 0;
+    height: 500px;
+  }
+  .internshiptext p {
+    /* text-align: center; */
+    font-size: 15px;
+  }
+}
+
+.internshipdetails h2{
+  margin: 40px;
+}
+.internshipdetails p{
+  margin: 40px;
+  text-align: justify;
+}
+.internshipdetails ul li{
+  margin:  40px;
+}
+.internshipbutton{
+  text-align: center;
+ margin: 40px;
+}
+.internshipbutton button {
+  padding: 12px 50px 12px 50px;
+  cursor: pointer;
+  border-radius: 3px;
+  border-width: 0;
+  color: #fff;
+  background: #19a7ce;
+  font-size: 16px;
+
+}
+.internshipbutton button:hover {
+  background: #137e9c;
+  transition: 0.5s;
+
+}
+
+@media (max-width: 768px) {
+  .internshipdetails p {
+    font-size: 15px;
+  }
+  .internshipdetails h2 {
+    font-size: 20px;
+  }
+  .internshipdetails ul li{
+    font-size: 15px;
+  }
+}
