@@ -6,7 +6,6 @@
   box-sizing: border-box;
   font-family: "Comfortaa", cursive;
   scroll-behavior: smooth;
-
 }
 /* body{
     background-color: #f9f5e7;
@@ -184,7 +183,6 @@ nav ul li a:hover {
 .aboutimage {
   flex: 1;
   margin-right: 20px;
-  
 }
 .aboutimage img {
   width: 100%;
@@ -194,7 +192,6 @@ nav ul li a:hover {
   flex: 1;
   text-align: justify;
 }
-
 
 @media (max-width: 768px) {
   .aboutsection {
@@ -206,7 +203,7 @@ nav ul li a:hover {
   }
   .abouttext p {
     /* text-align: center; */
-    
+
     font-size: 15px;
   }
 }
@@ -225,10 +222,10 @@ nav ul li a:hover {
   flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
-  margin: 20px ;
+  margin: 20px;
   /* animation: myAnim 1s ease 0s 1 normal forwards; */
 }
-.internsection p{
+.internsection p {
   text-align: justify;
 }
 .internimage {
@@ -248,8 +245,8 @@ nav ul li a:hover {
   padding: 10px;
 }
 
-.button{
- margin: 10px;
+.button {
+  margin: 10px;
 }
 
 .internimage button {
@@ -265,7 +262,6 @@ nav ul li a:hover {
 .internimage button:hover {
   background: #137e9c;
   transition: 0.5s;
-
 }
 .internimage img {
   width: 100%;
@@ -362,7 +358,6 @@ form button {
 form button:hover {
   background: #137e9c;
   transition: 0.5s;
-
 }
 
 @media (max-width: 768px) {
@@ -433,7 +428,8 @@ form button:hover {
   margin-top: 5px;
 }
 
-.active, .accordion:hover {
+.active,
+.accordion:hover {
   background: #137e9c;
   transition: 0.5s;
 }
@@ -456,16 +452,15 @@ form button:hover {
   .faqimage img {
     display: none;
   }
-  .panel p{
+  .panel p {
     font-size: 15px;
   }
 }
 
 /* footer */
-footer{
+footer {
   background-color: #19a7ce;
 }
-
 
 .footersection {
   display: flex;
@@ -482,30 +477,28 @@ footer{
   margin-right: 20px;
   padding: 20px;
   margin: 20px;
-
 }
-.footerdetail ul{
+.footerdetail ul {
   margin-top: 20px;
 }
-.footerdetail a{
+.footerdetail a {
   color: #fff;
 }
-.footerdetail p{
+.footerdetail p {
   margin-top: 20px;
 }
-.footerdetail ul li{
+.footerdetail ul li {
   margin-top: 10px;
 }
-.footerdetail ul li a:hover{
+.footerdetail ul li a:hover {
   text-decoration: underline;
   transition: 0.5s;
-
 }
-.footerdetail h2 img{
+.footerdetail h2 img {
   width: 60px;
   height: 60px;
 }
-.copyright p{
+.copyright p {
   font-size: 12px;
   padding: 20px;
   color: #fff;
@@ -516,32 +509,31 @@ footer{
   .footersection {
     flex-direction: column;
   }
-  .footerdetail p{
+  .footerdetail p {
     font-size: 12px;
   }
-  .footerdetail a{
+  .footerdetail a {
     font-size: 12px;
   }
-  .footerdetail h3{
+  .footerdetail h3 {
     font-size: 15px;
   }
 }
 
-@media (max-width: 768px){
+@media (max-width: 768px) {
   .faqheading h1 {
     font-size: 25px;
   }
-  .aboutheading h1{
-    font-size: 25px;
-
-  }
-  .internheading h1{
+  .aboutheading h1 {
     font-size: 25px;
   }
-  .contactheading h1{
+  .internheading h1 {
     font-size: 25px;
   }
-  .internshipheading h1{
+  .contactheading h1 {
+    font-size: 25px;
+  }
+  .internshipheading h1 {
     font-size: 25px;
   }
 }
@@ -579,7 +571,6 @@ footer{
 .internshipimage {
   flex: 1;
   margin-right: 20px;
-  
 }
 .internshipimage img {
   width: 100%;
@@ -604,19 +595,50 @@ footer{
   }
 }
 
-.internshipdetails h2{
-  margin: 40px;
+.internshipbutton0 {
+  /* text-align: center; */
+  margin: 40px 0;
 }
-.internshipdetails p{
+.internshipbutton0 button {
+  padding: 12px 50px 12px 50px;
+  cursor: pointer;
+  border-radius: 3px;
+  border-width: 0;
+  color: #fff;
+  background: #19a7ce;
+  font-size: 16px;
+}
+.internshipbutton0 button:hover {
+  background: #137e9c;
+  transition: 0.5s;
+}
+
+.details {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  /* align-items: center; */
+  /* margin: 0 20px 20px 20px; */
+  /* padding: 0 20px 0 20px; */
+}
+
+.internshipdetails {
+  flex: 1;
+}
+
+.internshipdetails h2 {
+  margin: 0 40px;
+}
+.internshipdetails p {
   margin: 40px;
   text-align: justify;
 }
-.internshipdetails ul li{
-  margin:  40px;
+.internshipdetails ul li {
+  margin: 40px;
 }
-.internshipbutton{
+.internshipbutton {
   text-align: center;
- margin: 40px;
+  margin: 40px 0;
 }
 .internshipbutton button {
   padding: 12px 50px 12px 50px;
@@ -626,22 +648,53 @@ footer{
   color: #fff;
   background: #19a7ce;
   font-size: 16px;
-
 }
 .internshipbutton button:hover {
   background: #137e9c;
   transition: 0.5s;
+}
 
+.relatedResource {
+  flex: 1;
+  
+}
+
+.relatedResource h2 {
+  margin: 0 40px;
+}
+
+.relatedResource h3 {
+  margin: 40px;
+}
+
+.relatedResource ul li {
+  margin: 40px;
+}
+
+.relatedResource ul li a {
+  text-decoration: underline;
+  word-break: break-all;
 }
 
 @media (max-width: 768px) {
+
+  .internshipbutton0{
+    text-align: center;
+  }
+  .details {
+    flex-direction: column;
+  }
+
+  .internshipdetails h2 {
+    margin: 40px;
+  }
   .internshipdetails p {
     font-size: 15px;
   }
-  .internshipdetails h2 {
+  h2 {
     font-size: 20px;
   }
-  .internshipdetails ul li{
+  .internshipdetails ul li {
     font-size: 15px;
   }
 }
