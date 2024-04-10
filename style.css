@@ -674,6 +674,8 @@ footer {
 .relatedResource ul li a {
   text-decoration: underline;
   word-break: break-all;
+	  color: #19a7ce;
+
 }
 
 @media (max-width: 768px) {
