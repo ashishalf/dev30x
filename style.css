@@ -127,7 +127,7 @@ nav ul li a:hover {
 }
 .header {
   background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.4)),
-    url("./Images/bg4.jpg");
+    url("./Images/Design.png");
 
   /* background-position: center; */
   background-size: cover;
